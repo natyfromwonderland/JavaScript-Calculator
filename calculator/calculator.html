@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Calculator</title>
+    <link rel='stylesheet' href='styles.css'/>
+  </head>
+  <body>
+
+    <div class = 'main-body'>
+      <div class='screen'>
+        <input id='number'
+               name='text'
+               type='text'
+               value='0' />
+
+      </div>
+      <div class='buttons-container'>
+        <div class = 'buttons-grid'>
+         <button id ='one' onclick ='disNum("1")'><img src="images/1.svg"></button>
+         <button id ='two' onclick ='disNum("2")'><img src="images/2.svg"></button>
+         <button id ='three' onclick ='disNum("3")'><img src="images/3.svg"></button>
+         <button id ='plus' onclick ='Adding()'><img src="images/add.svg"></button>
+         <button id ='four' onclick ='disNum("4")'><img src="images/4.svg"></button>
+         <button id ='five' onclick ='disNum("5")'><img src="images/5.svg"></button>
+         <button id ='six' onclick ='disNum("6")'><img src="images/6.svg"></button>
+         <button id ='minus' onclick ='Subtracting()'><img src="images/subtract.svg"></button>
+         <button id ='seven' onclick ='disNum("7")'><img src="images/7.svg"></button>
+         <button id ='eight' onclick ='disNum("8")'><img src="images/8.svg"></button>
+         <button id ='nine' onclick ='disNum("9")'><img src="images/9.svg"></button>
+         <button id ='mult' onclick ='Multiply()'><img src="images/multiply.svg"></button>
+         <button id ='clear' onclick ='location.reload()'><img src="images/clear.svg"></button>
+         <button id ='zero' onclick ='disNum("0")'><img src="images/0.svg"></button>
+         <button id ='equal'><img src="images/equal.svg"></button>
+         <button id ='divide' onclick='Division()'><img src="images/divide.svg"></button>
+         </div>
+      </div>
+
+
+   <script src="script.js" defer></script>
+
+  </body>
+
+</html>

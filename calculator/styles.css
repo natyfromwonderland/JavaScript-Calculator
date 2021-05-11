@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-body {
+  display: block;
+  position: absolute;
+  width: 376px;
+  height: 492px;
+  left: 532px;
+  top: 100px;
+
+  background: #067D52;
+  border-radius: 10px;
+  align-items:center;
+  padding: 24px;
+}
+
+.screen input[type='text'] {
+  display: block;
+  position: relative;
+  width: 327px;
+  height: 64px;
+  margin: auto;
+  margin-top: 20px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 41px;
+  color: #000000;
+
+  background: #FFFFFF;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  text-align: right;
+  border: none;
+}
+
+.screen input[type='text']{
+  padding: 10px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons-grid {
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  flex-direction:row;
+  align-items:center;
+  margin-left: 10px;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
