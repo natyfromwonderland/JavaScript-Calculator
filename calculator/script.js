@@ -1,4 +1,3 @@
-
 let val = '';
 const display = document.getElementById('number');
 const equalSign = document.getElementById('equal');
@@ -13,11 +12,9 @@ function disNum(val) {
   console.log(display.value);
 }
 
-
 function clearALL (){
   display.value='0';
 }
-
 
 function Adding(number1,number2,number3,res) {
   number1 = parseInt(display.value);
